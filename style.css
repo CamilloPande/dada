@@ -20,14 +20,15 @@ header{
 
 
 .navigation{
-    background-color: rgb(127, 127, 127);
+    background-color: rgb(255, 255, 255);
+    border-bottom:2px black solid;
     padding:5px;
 }
 
 .navigation ul{
     display:flex;
     justify-content:space-evenly;
-    text-align:center;
+    padding:0;
 }
 
 .navigation ul li{
@@ -191,18 +192,4 @@ main{
         height:220px;
     }
 
-}
-
-@media(max-width:420px){
-    .navigation ul{
-        flex-direction: column;
-        align-items: center;
-        margin:0;
-    }
-
-    .navigation ul li{
-        border-bottom:2px solid black;
-        width:60%;
-    }
-    
 }
